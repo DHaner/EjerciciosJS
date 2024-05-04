@@ -1,0 +1,37 @@
+img {
+    height: 480px; width: 480px;
+}
+
+.front {
+    animation-name: flip-front;
+    animation-duration: 0.1s;
+    animation-fill-mode: forwards;
+}
+.back {
+    animation-name: flip-back;
+    animation-duration: 0.1s;
+    animation-fill-mode: forwards;
+}
+
+@keyframes flip-front {
+    20% {
+        transform: rotateY(10deg);
+    } 40% {
+        transform: rotateY(30deg);
+    } 60% {
+        transform: rotateY(70deg);
+    } 80% {
+        transform: rotateY(90deg);
+    }
+}
+@keyframes flip-back {
+    20% {
+        transform: rotateY(-10deg);
+    } 40% {
+        transform: rotateY(-30deg);
+    } 60% {
+        transform: rotateY(-70deg);
+    } 80% {
+        transform: rotateY(-90deg);
+    }
+}

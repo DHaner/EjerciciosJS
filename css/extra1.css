@@ -1,0 +1,19 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+label {
+    position: absolute;
+    top: 50%;
+    left: 41.5%;
+    background-color: #ffffffd0;
+}
+button {
+    position: absolute;
+    height: 50px; width: 100px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+body {
+    background-attachment: fixed;
+    background-size: cover;
+}

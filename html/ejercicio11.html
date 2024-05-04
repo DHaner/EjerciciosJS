@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 11: DOM basico y atributos CSS</title>
+    <script type="text/javascript" src="../js/codigo11.js"></script>
+    <link rel="stylesheet" href="../css/style2.css" />
+    <style type="text/css">
+        .oculto { display: none;}
+        .visible {display: inline;}
+    </style>
+</head>
+<body>
+    <div class="card-container glass-effect">
+        <h1>Pagina con DOM basico y css</h1>
+        <p class="texto">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odit dolore distinctio dolorum eos ab quae voluptas voluptate eveniet, dicta aspernatur doloribus cumque, beatae nihil fugit delectus totam, earum fuga sint?
+            <span id="adicional" class="oculto"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quia, libero excepturi nulla maxime culpa impedit sequi fugit animi voluptate doloremque earum ipsam tempora, minima tempore itaque quas quisquam cum iste!
+                <a href="#" id="enlace1" onclick="oculta()">ocultar</a><br>
+            </span>
+            
+
+        </p>
+        <a href="#" id="enlace" onclick="muestra()">Seguir Leyendo</a> <br>
+    </div>
+    <button class="btn" onclick="location.href='../index.html'">Regresar</button>
+
+</body>
+</html>

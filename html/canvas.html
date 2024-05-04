@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../css/canvastyle.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="card-container glass-effect">
+        <canvas id="canvas" width="700" height="500"></canvas><br>
+    </div>
+        
+    <div class="card-container2 glass-effect2">
+        <input type="color" id="color" oninput="defcolor(this.value);">
+        <input type="range" id="grosor" oninput="defgrosor(this.value);" min="1" max="8" value="1">
+        <button id="tools" onclick="lapiztool()">
+            <img src="../assets/lapiz.png" height="30" width="30" />
+        </button >
+        <button id="tools" onclick="erasertool()">
+            <img src="../assets/eraser.png" height="30" width="30" />
+        </button >
+        <button id="limpiar" onclick="limpiarCanvas()">Limpiar Canvas</button>
+        <button id="limpiar" onclick="location.href='../index.html'">Volver al menu</button>
+    </div>
+    <script src="../js/gartic.js"></script>
+</body>
+</html>

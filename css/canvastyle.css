@@ -1,0 +1,62 @@
+body{
+	background-image:url('../assets/fondog.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+	display: grid;
+    place-items: center;
+  }
+#canvas {
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: beige;
+    max-width: 100%; /* Ajuste para asegurarse de que el canvas no se desborde del contenedor */
+    max-height: 100%; /* Ajuste para asegurarse de que el canvas no se desborde del contenedor */
+    position: absolute; /* Añadido para centrar correctamente el canvas */
+    top: 50%; /* Añadido para centrar verticalmente */
+    left: 50%; /* Añadido para centrar horizontalmente */
+    transform: translate(-50%, -50%); /* Añadido para centrar exactamente el canvas */
+}
+
+.card-container {
+    width: 800px;
+    height: 600px;
+    border: 3px solid #fafafa10;
+    margin: 20px;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Añadido para posicionar correctamente el canvas */
+}
+.glass-effect{
+    background: #fafafa10;
+    backdrop-filter: blur(0.4rem);
+}
+.card-container2 {
+    width: 800px;
+    height: 60px;
+    border: 3px solid #fafafa10;
+    margin: 0 auto;
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative; /* Añadido para posicionar correctamente el canvas */
+}
+.glass-effect2{
+    background: #fafafa10;
+    backdrop-filter: blur(0.4rem);
+}
+#limpiar {
+    margin: 0 10px; /* Ajusta el valor según la separación deseada */
+    border-radius:5px;
+    font-family: 'Arial black';
+    color: antiquewhite;
+    background-color: #861d42;
+}
+#tools{
+    margin: 0 5px;
+    border-radius: 8px;
+    background-color:#861d42; 
+}
